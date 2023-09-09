@@ -1,23 +1,36 @@
 /* Estilos para o formulário */
 form {
-    border: 2px solid #efe7e7; /* Adiciona uma borda de 2px com a cor cinza (#ccc) */
-    padding: 20px; /* Adiciona espaço interno ao redor do formulário */
-    width: 300px; /* Define a largura do formulário */
-    margin: 0 auto; /* Centraliza o formulário na página */
-  }
-  
-  /* Estilos para os rótulos e campos de entrada */
-  label, input {
-    display: block; /* Coloca cada rótulo e campo de entrada em uma nova linha */
-    margin-bottom: 10px; /* Adiciona espaço entre eles */
-  }
-  
-  /* Estilos para o botão de login */
-  button {
-    background-color: #135d9e; /* Cor de fundo azul */
-    color: #ebdede; /* Cor do texto branca */
-    padding: 10px 20px; /* Espaçamento interno do botão */
-    border: none; /* Remove a borda do botão */
-    cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
-  }
-  
+  border: 2px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: #f2f2f2; /* Adicione uma cor de fundo */
+  border-radius: 5px; /* Adicione cantos arredondados */
+}
+
+/* Estilos para os rótulos e campos de entrada */
+label, input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Estilos para o botão de login */
+button {
+  background-color: #135d9e;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px; /* Adicione cantos arredondados */
+  cursor: pointer;
+}
+
+/* Estilos para os links */
+a {
+  text-decoration: none; /* Remova a sublinhado dos links */
+  color: #135d9e; /* Defina a cor do link */
+}
+
+/* Estilos para links quando passar o mouse sobre eles */
+a:hover {
+  text-decoration: underline; /* Adicione um sublinhado ao passar o mouse */
+}
